@@ -135,6 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   byebug
   rspec
   sqlite3
