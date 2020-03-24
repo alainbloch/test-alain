@@ -1,7 +1,7 @@
 $:.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
-require "test/alain/version"
+require "version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
@@ -23,9 +23,5 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
-
-  spec.add_dependency "rails", "~> 5.2.4", ">= 5.2.4.2"
-
-  spec.add_development_dependency "sqlite3"
+  spec.files = Dir["{lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 end
