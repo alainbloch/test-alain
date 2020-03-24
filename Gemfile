@@ -12,6 +12,6 @@ gemspec
 # your gem to rubygems.org.
 
 # To use a debugger
-gem 'bundler'
+gem 'bundler', '>= 2.0.0'
 gem 'byebug', group: [:development, :test]
 gem 'rspec', group: [:test]
